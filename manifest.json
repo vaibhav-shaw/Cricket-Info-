@@ -1,0 +1,11 @@
+{
+    "name": "Check Matches",
+    "version": "1.0.0",
+    "description": "Get info about upcoming IPL matches",
+    "manifest_version": 3,
+    "author": "Vaibhav Shaw",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Check Matches"
+    }
+}
