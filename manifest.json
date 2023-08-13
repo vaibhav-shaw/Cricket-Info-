@@ -1,9 +1,14 @@
 {
     "name": "Check Matches",
     "version": "1.0.0",
-    "description": "Get info about upcoming IPL matches",
+    "description": "Get info about latest Cricket matches",
     "manifest_version": 3,
     "author": "Vaibhav Shaw",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
     "action": {
         "default_popup": "index.html",
         "default_title": "Check Matches"
