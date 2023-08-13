@@ -1,3 +1,7 @@
+.gradient-background {
+    background: linear-gradient(135deg, #FADBD8, #F9E79F);
+    color: #333; /* Dark text color for contrast */
+}
 body {
     min-width: 300px;
 }
