@@ -8,10 +8,11 @@ async function getMatchData() {
             if (data.status != "success") throw new Error("Error");
 
             const matchesList = data.data;
+            // console.log(matchesList);
 
             if (!matchesList) return [];
 
-            //add your api key from cricketdata.org
+            //added api key from cricketdata.org
             const relevantData = matchesList.map(match => `${match.name}, ${match.status}`);
 
             // console.log({ relevantData });
@@ -25,5 +26,3 @@ async function getMatchData() {
 }
 
 getMatchData();
-
-//https://rapidapi.com/api-sports/api/api-football/
